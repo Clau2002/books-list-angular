@@ -1,0 +1,24 @@
+{
+  "books": [
+    {
+      "title": "Mara",
+      "author": "Ioan Slavici",
+      "id": 4
+    },
+    {
+      "title": "Amintiri din copilarie",
+      "author": "Ion Creanga",
+      "id": 5
+    },
+    {
+      "title": "Enigma Otiliei",
+      "author": "George Calinescu",
+      "id": 6
+    },
+    {
+      "title": "O scrisoare pierduta",
+      "author": "Ion Luca Caragiale",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="title">Book</label>
+        <input 
+            type="text" 
+            name="title" 
+            [(ngModel)] = "title"
+            id="title" 
+            placeholder="Add Title"/>
+    </div>
+
+    <div class="form-control">
+        <label for="author">Author</label>
+        <input 
+            type="text" 
+            name="author" 
+            [(ngModel)] = "author" 
+            id="author" 
+            placeholder="Add Author"/>
+    </div>
+
+    <input 
+        type="submit" 
+        value="Save Book" 
+        class="btn btn-block">
+</form>

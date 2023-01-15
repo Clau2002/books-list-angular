@@ -1,0 +1,11 @@
+<div class="book">
+    <h3>
+        {{book.title}} 
+        <fa-icon 
+            (click)="onDelete(book)" 
+            [ngStyle]="{'color':'red'}" 
+            [icon]="faTimes"
+        ></fa-icon>
+    </h3>
+    <p>{{book.author}}</p>
+</div>
